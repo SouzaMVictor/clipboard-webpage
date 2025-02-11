@@ -22,8 +22,8 @@ function App() {
           <img src={logoSVG} className="mx-auto my-16" />
           <h3>A history of everything you copy</h3>
           <p className="max-w-3xl mx-auto mb-10 text-2xl text-grayishBlue">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            incidunt possimus nesciunt animi repellat, sapiente dolore nisi?
+            Clipboard allows you to track and organize everything you copy.
+            Instantly access your clipboard on all your devices.
           </p>
           <div className="button-container">
             <a
@@ -46,9 +46,9 @@ function App() {
         <div className="section-container my-20 ">
           <h3>Keep track of your snippets</h3>
           <p className="section-content text-xl mb-24">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Perferendis corrupti unde ea ut sit asperiores tempore eaque
-            incidunt.
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
           </p>
         </div>
       </section>
@@ -68,24 +68,23 @@ function App() {
               <div>
                 <h5>Quick Search</h5>
                 <p className="max-w-md text-grayishBlue">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-                  magni.
+                  Easily search your snippets by content, category, web address,
+                  application, and more.
                 </p>
               </div>
               {/* item 2 */}
               <div>
                 <h5>iCloud Sync</h5>
                 <p className="max-w-md text-grayishBlue">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-                  magni.
+                  Instantly saves and syncs snippets across all your devices.
                 </p>
               </div>
               {/* item 3 */}
               <div>
                 <h5>Complete History</h5>
                 <p className="max-w-md text-grayishBlue">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-                  magni.
+                  Retrieve any snippets from the first moment you started using
+                  the app.
                 </p>
               </div>
             </div>
@@ -95,10 +94,10 @@ function App() {
       {/* Acess Anywhere section */}
       <section>
         <div className="section-container my-20">
-          <h3>Acess Clipboard Anywehere</h3>
+          <h3>Acess Clipboard Anywhere</h3>
           <p className="section-content text-xl mb-10">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et,
-            accusamus! Voluptate aliquam aut iure minima.
+            Whether you’re on the go, or at your computer, you can access all
+            your Clipboard snippets in a few simple clicks.
           </p>
           <img src={imageDevices} className="mx-auto" />
         </div>
@@ -108,7 +107,7 @@ function App() {
         <div className="section-container my-20">
           <h3>Supercharge your workflow</h3>
           <p className="section-content mb-16">
-            Lorem ipsum dolor sit amet consectetur adipisicing.
+            We&apos;ve got the tools to boost your productivity.
           </p>
           <div className="flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-12">
             {/* item 1 */}
@@ -116,8 +115,8 @@ function App() {
               <img src={blackList} />
               <h5>Create Blacklists</h5>
               <p className="max-w-md text-grayishBlue">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Facilis error inventore consequatur.
+                Easily search your snippets by content, category, web address,
+                application, and more.
               </p>
             </div>
             {/* item 2 */}
@@ -125,8 +124,8 @@ function App() {
               <img src={text} />
               <h5>Plain Text Snippets</h5>
               <p className="max-w-md text-grayishBlue">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Facilis error inventore consequatur.
+                Remove unwanted formatting from copied text for a consistent
+                look.
               </p>
             </div>
             {/* item 3 */}
@@ -134,8 +133,7 @@ function App() {
               <img src={preview} />
               <h5>Sneak Preview</h5>
               <p className="max-w-md text-grayishBlue">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Facilis error inventore consequatur.
+                Quick preview of all snippets on your Clipboard for easy access.
               </p>
             </div>
           </div>
@@ -156,9 +154,8 @@ function App() {
         <div className="section-container my-20">
           <h3>Clipboard for iOS and MacOS</h3>
           <p className="section-content text-xl mb-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            aliquam dolorum alias exercitationem reprehenderit voluptatum ut est
-            tempora, voluptatibus possimus?
+            Available for free on the App Store. Download for Mac or iOS, sync
+            with iCloud and you&apos;re ready to start adding to your clipboard.
           </p>
           <div className="button-container">
             <a
