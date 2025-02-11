@@ -10,6 +10,9 @@ import ibm from "./assets/images/logo-ibm.png";
 import hp from "./assets/images/logo-hp.png";
 import microsoft from "./assets/images/logo-microsoft.png";
 import vectorGraphics from "./assets/images/logo-vector-graphics.png";
+import facebook from "./assets/images/icon-facebook.svg";
+import instagram from "./assets/images/icon-instagram.svg";
+import twitter from "./assets/images/icon-twitter.svg";
 function App() {
   return (
     <>
@@ -42,7 +45,7 @@ function App() {
       <section>
         <div className="section-container my-20 ">
           <h3>Keep track of your snippets</h3>
-          <p className="section-content mb-24">
+          <p className="section-content text-xl mb-24">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Perferendis corrupti unde ea ut sit asperiores tempore eaque
             incidunt.
@@ -93,7 +96,7 @@ function App() {
       <section>
         <div className="section-container my-20">
           <h3>Acess Clipboard Anywehere</h3>
-          <p className="section-content mb-10">
+          <p className="section-content text-xl mb-10">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et,
             accusamus! Voluptate aliquam aut iure minima.
           </p>
@@ -148,6 +151,91 @@ function App() {
           <img src={vectorGraphics} />
         </div>
       </section>
+      {/* bottom cta call to action section  */}
+      <section>
+        <div className="section-container my-20">
+          <h3>Clipboard for iOS and MacOS</h3>
+          <p className="section-content text-xl mb-10">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+            aliquam dolorum alias exercitationem reprehenderit voluptatum ut est
+            tempora, voluptatibus possimus?
+          </p>
+          <div className="button-container">
+            <a
+              href="#"
+              className="p-4 px-8 rounded-full shadow-lg bg-strongCyan duration-200 hover:opacity-80"
+            >
+              Download for iOS
+            </a>
+            <a
+              href="#"
+              className="p-4 px-8 rounded-full shadow-lg bg-lightBlue duration-200 hover:opacity-80"
+            >
+              Download for Mac
+            </a>
+          </div>
+        </div>
+      </section>
+      {/* footer  */}
+      <footer className="bg-gray-50">
+        <div className="section-container">
+          <div className="flex flex-col items-center justify-between md:flex-row">
+            <img className="scale-50" src={logoSVG} />
+            {/* container for menus and social */}
+            <div className="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 md:space-y-0 text-grayishBlue">
+              {/* menus */}
+              <div className="flex flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0">
+                {/* menu 1 */}
+                <div className="flex flex-col space-y-4 text-center md:text-left">
+                  <div>
+                    <a href="#" className="hover:text-strongCyan">
+                      FAQ
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" className="hover:text-strongCyan">
+                      Contact Us
+                    </a>
+                  </div>
+                </div>
+                {/* menu 2 */}
+                <div className="flex flex-col space-y-4 text-center md:text-left">
+                  <div>
+                    <a href="#" className="hover:text-strongCyan">
+                      Privacy Policy
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" className="hover:text-strongCyan">
+                      Press Kit
+                    </a>
+                  </div>
+                </div>
+                {/* menu 3 */}
+                <div className="flex flex-col space-y-4 text-center md:text-left">
+                  <div>
+                    <a href="#" className="hover:text-strongCyan">
+                      Install Guide
+                    </a>
+                  </div>
+                </div>
+              </div>
+              {/* social icons  */}
+              <div className="flex justify-between w-32 py-1">
+                <a href="#">
+                  <img src={facebook} className="duration-200 ficon" />
+                </a>
+                <a href="#">
+                  <img src={instagram} className="duration-200 ficon" />
+                </a>
+                <a href="#">
+                  <img src={twitter} className="duration-200  ficon" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
