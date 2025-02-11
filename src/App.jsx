@@ -5,6 +5,11 @@ import imageDevices from "./assets/images/image-devices.png";
 import blackList from "./assets/images/icon-blacklist.svg";
 import text from "./assets/images/icon-text.svg";
 import preview from "./assets/images/icon-preview.svg";
+import google from "./assets/images/logo-google.png";
+import ibm from "./assets/images/logo-ibm.png";
+import hp from "./assets/images/logo-hp.png";
+import microsoft from "./assets/images/logo-microsoft.png";
+import vectorGraphics from "./assets/images/logo-vector-graphics.png";
 function App() {
   return (
     <>
@@ -131,6 +136,16 @@ function App() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+      {/* references section  */}
+      <section>
+        <div className="flex flex-col items-center justify-between max-w-6xl px-10 mx-auto space-y-16 my-44 md:flex-row md:space-y-0">
+          <img src={google} />
+          <img src={ibm} />
+          <img src={microsoft} />
+          <img src={hp} />
+          <img src={vectorGraphics} />
         </div>
       </section>
     </>
