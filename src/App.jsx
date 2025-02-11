@@ -3,6 +3,8 @@ import logoSVG from "./assets/images/logo.svg";
 import imageComputer from "./assets/images/image-computer.png";
 import imageDevices from "./assets/images/image-devices.png";
 import blackList from "./assets/images/icon-blacklist.svg";
+import text from "./assets/images/icon-text.svg";
+import preview from "./assets/images/icon-preview.svg";
 function App() {
   return (
     <>
@@ -42,7 +44,7 @@ function App() {
           </p>
         </div>
       </section>
-      {/* Fetures section */}
+      {/* Features section */}
       <section>
         <div className="section-container my-20 ">
           {/* image container */}
@@ -56,9 +58,7 @@ function App() {
             <div className="flex flex-col mt-16 mb-24 space-y-12 text-xl md:mb-60 md:text-left md:pl-16 md:w-1/2">
               {/* item 1 */}
               <div>
-                <h5 className="mb-2 text-2xl font-bold text-darkGrayishBlue">
-                  Quick Search
-                </h5>
+                <h5>Quick Search</h5>
                 <p className="max-w-md text-grayishBlue">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
                   magni.
@@ -66,9 +66,7 @@ function App() {
               </div>
               {/* item 2 */}
               <div>
-                <h5 className="mb-2 text-2xl font-bold text-darkGrayishBlue">
-                  iCloud Sync
-                </h5>
+                <h5>iCloud Sync</h5>
                 <p className="max-w-md text-grayishBlue">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
                   magni.
@@ -76,9 +74,7 @@ function App() {
               </div>
               {/* item 3 */}
               <div>
-                <h5 className="mb-2 text-2xl font-bold text-darkGrayishBlue">
-                  Complete History
-                </h5>
+                <h5>Complete History</h5>
                 <p className="max-w-md text-grayishBlue">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
                   magni.
@@ -110,6 +106,29 @@ function App() {
             {/* item 1 */}
             <div className="flex flex-col items-center space-y-5">
               <img src={blackList} />
+              <h5>Create Blacklists</h5>
+              <p className="max-w-md text-grayishBlue">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Facilis error inventore consequatur.
+              </p>
+            </div>
+            {/* item 2 */}
+            <div className="flex flex-col items-center space-y-5">
+              <img src={text} />
+              <h5>Plain Text Snippets</h5>
+              <p className="max-w-md text-grayishBlue">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Facilis error inventore consequatur.
+              </p>
+            </div>
+            {/* item 3 */}
+            <div className="flex flex-col items-center space-y-5">
+              <img src={preview} />
+              <h5>Sneak Preview</h5>
+              <p className="max-w-md text-grayishBlue">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Facilis error inventore consequatur.
+              </p>
             </div>
           </div>
         </div>
